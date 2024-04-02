@@ -5,7 +5,8 @@ import streamlit as st
 import pandas as pd
 
 #load dataset
-df= pd.read_csv("/Users/shriyakumbhoje/Desktop/IV project/clean_Himark_data.csv")
+df = pd.read_csv("clean_Himark_data.csv")
+
 def display_option2():
         st.markdown('<center><h2 style="font-family: Arial, sans-serif">Reliability of Neighbourhood Report</h2></center>', unsafe_allow_html=True)
         options = ['sewer_and_water', 'power', 'medical', 'buildings', 'roads_and_bridges']
