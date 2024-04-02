@@ -4,8 +4,8 @@ import altair as alt
 import page1
 import page2
 import page3
-from ipywidgets import interact, widgets
-from IPython.display import display
+
+
 
 
 
