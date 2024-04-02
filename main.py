@@ -12,7 +12,8 @@ st.set_page_config(
     layout="wide")
 
 #load data
-df= pd.read_csv("/Users/shriyakumbhoje/Desktop/IV project/clean_Himark_data.csv")
+df = pd.read_csv("clean_Himark_data.csv")
+
 
 st.markdown('''
     <style>
