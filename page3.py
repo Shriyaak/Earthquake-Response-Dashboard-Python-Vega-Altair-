@@ -4,7 +4,8 @@ import streamlit as st
 import pandas as pd
 
 #load dataset
-df= pd.read_csv("/Users/shriyakumbhoje/Desktop/IV project/clean_Himark_data.csv")
+df = pd.read_csv("clean_Himark_data.csv")
+
 
 
 def display_option3():
