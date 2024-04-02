@@ -6,7 +6,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #load dataset
-df= pd.read_csv("/Users/shriyakumbhoje/Desktop/IV project/clean_Himark_data.csv")
+df = pd.read_csv("clean_Himark_data.csv")
+
 # Creating Overall_Damage
 df['Overall_damage'] = df['sewer_and_water']+df['power']+df['roads_and_bridges']+df['buildings']+df['medical']
 
